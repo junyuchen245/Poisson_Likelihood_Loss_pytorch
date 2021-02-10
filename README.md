@@ -1,6 +1,6 @@
 # Poisson Likelihood loss function
 
-This is a pytorch implementation of the Poisson Likelihood loss function used for NM image reconstration [1].
+This is a pytorch implementation of the Poisson Likelihood loss function used for NM image reconstruction [1].
 
 <img src="https://github.com/junyuchen245/PoissonLikelihoodLoss_pytorch/blob/main/GetImage.png" width="300"/>
 
