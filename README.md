@@ -1,5 +1,7 @@
 # Poisson Likelihood loss function
 
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+
 This is a PyTorch implementation of the Poisson Likelihood loss function used for NM image reconstruction [1].
 
 <img src="https://github.com/junyuchen245/PoissonLikelihoodLoss_pytorch/blob/main/GetImage.png" width="300"/>
