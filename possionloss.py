@@ -14,8 +14,8 @@ class PoissonLikelihood_loss(nn.Module):
 
     def forward(self, y_pred, y_true):
         eps = 1e-6
-        y_pred = y_pred.view(y_pred.size[0], -1)
-        y_true = y_true.view(y_true.size[0], -1)
+        y_pred = y_pred.view(y_pred.shape[0], -1)
+        y_true = y_true.view(y_true.shape[0], -1)
 
         p_l = -y_true+y_pred*torch.log(y_true + eps)-torch.lgamma(y_pred+1)
         return -torch.mean(p_l)
